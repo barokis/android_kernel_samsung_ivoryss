@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 0
 SUBLEVEL = 15
-EXTRAVERSION = muZic_kernel
+EXTRAVERSION = Galaxy_Music_Kernel
 NAME = Sneaky Weasel
 
 # *DOCUMENTATION*
