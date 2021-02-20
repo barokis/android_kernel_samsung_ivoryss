@@ -277,7 +277,7 @@ static struct device_attribute dev_attr_rear_flash = {
 ***************************************************************************/
 
 
-inline struct camdrv_ss_state *to_state(struct v4l2_subdev *sd)
+struct camdrv_ss_state *to_state(struct v4l2_subdev *sd)
 {
 	return container_of(sd, struct camdrv_ss_state, sd);
 }
